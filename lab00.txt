@@ -1,0 +1,5 @@
+Utilizzando la tecnica di "isolamento" si fa in maniera tale che il sistema B venga sconnesso dal resto della rete, continua ad essere collegato ad internet. Trattandosi di un database, non è una buona soluzione in quanto non blocca in alcun modo l'esfiltrazione di dati.
+Con la tecnica di "rimozione", invece, il database viene totalmente isolato da qualunque tipo di connessione. Questo permette di sospendere attacchi di forma attiva verso il sistema, che può essere poi analizzato separatamente e riparato. Anche in questa situazione i dati all'interno del database non sono accessibili, ma viene impedito anche il loro l'accesso, lecito i illecito.
+
+Se si determina che i dischi, compromessi, debbano essere smaltiti, o comunque si ritiene necessaria l'eliminazione di informazioni sensibili presenti al loro interno, si possono adottare le tecniche "purge" o "destroy".
+Con la tecnica "purge" i dati vengono eliminati tramite mezzi fisici. Lo stesso avviene con la tecnica "destroy", che però implica necessariamente la rottura dei dispositivi interessati.
